@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Birthday Reminder App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    </head>
+    <body>
+        <div class="container">
+            <h3>Birthday Notification</h3>
+            <div class="birthday-input">
+                <input type="text" class="name-input" placeholder="Name">
+                <input type="date" class="date-input">
+                <button onclick="addReminder()" class="add-btn">
+                <i class="fa fa-plus"></i>
+                </button>
+            </div>
+           <img src="assets/bday.png" id="image">
+           <span>You don't have any birthday reminder, create One!</span>
+            <div class="birthday-list">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
